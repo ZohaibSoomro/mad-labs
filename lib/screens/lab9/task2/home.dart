@@ -127,6 +127,9 @@ class _HomeState extends State<Home> {
       sharePositionOrigin: box!.localToGlobal(Offset.zero) & box.size,
     );
     print("Share status:${result.status}");
+    if(result.status==ShareResultStatus.success){
+      file=null;
+    }
     setState(() {});
   }
 }

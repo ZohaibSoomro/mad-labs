@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:lab2_task/screens/lab9/task2/home.dart';
+import 'package:lab2_task/screens/lab10/task2/home.dart';
 
 void main() async {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Home(),
     );
