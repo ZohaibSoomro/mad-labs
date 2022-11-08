@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:lab2_task/screens/lab11/model/student.dart';
+import 'package:lab2_task/screens/lab12/model/student.dart';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 

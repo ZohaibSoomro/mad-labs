@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lab2_task/screens/lab10/task2/home.dart';
+import 'package:lab2_task/screens/lab12/home.dart';
 
 void main() async {
   runApp(const MyApp());
